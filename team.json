@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Ali Khan",
+    "role": "Frontend Developer",
+    "skills": ["React", "JavaScript", "CSS", "Accessibility"],
+    "image_url": "https://i.pravatar.cc/600?img=12",
+    "bio": "Builds fast, accessible UIs with React and modern CSS.",
+    "social_links": { "github": "#", "linkedin": "#" }
+  },
+  {
+    "id": 2,
+    "name": "Ayesha Noor",
+    "role": "UI/UX Designer",
+    "skills": ["Figma", "UI/UX", "Wireframing", "Design Systems"],
+    "image_url": "https://i.pravatar.cc/600?img=47",
+    "bio": "Designs clean systems, prototypes, and delightful product flows.",
+    "social_links": { "dribbble": "#", "linkedin": "#" }
+  },
+  {
+    "id": 3,
+    "name": "Hassan Raza",
+    "role": "Backend Developer",
+    "skills": ["Node.js", "Python", "REST API", "Databases"],
+    "image_url": "https://i.pravatar.cc/600?img=23",
+    "bio": "Ships reliable APIs, authentication, and data modeling at scale.",
+    "social_links": { "github": "#", "linkedin": "#" }
+  },
+  {
+    "id": 4,
+    "name": "Sana Ahmed",
+    "role": "Project Manager",
+    "skills": ["Agile", "Sprint Planning", "Team Leadership", "Communication"],
+    "image_url": "https://i.pravatar.cc/600?img=5",
+    "bio": "Keeps teams aligned, predictable, and focused on outcomes.",
+    "social_links": { "linkedin": "#" }
+  },
+  {
+    "id": 5,
+    "name": "Usman Tariq",
+    "role": "QA Engineer",
+    "skills": ["Manual Testing", "Automation", "Test Cases", "Bug Tracking"],
+    "image_url": "https://i.pravatar.cc/600?img=18",
+    "bio": "Ensures quality with smart test coverage and bug prevention.",
+    "social_links": { "linkedin": "#" }
+  },
+  {
+    "id": 6,
+    "name": "Maryam Iqbal",
+    "role": "Full Stack Developer",
+    "skills": ["React", "Node.js", "MongoDB", "TypeScript"],
+    "image_url": "https://i.pravatar.cc/600?img=32",
+    "bio": "Bridges frontend and backend to deliver complete features.",
+    "social_links": { "github": "#", "linkedin": "#" }
+  },
+  {
+    "id": 7,
+    "name": "Bilal Sheikh",
+    "role": "DevOps Engineer",
+    "skills": ["Docker", "CI/CD", "AWS", "Monitoring"],
+    "image_url": "https://i.pravatar.cc/600?img=56",
+    "bio": "Automates CI/CD, observability, and cloud infrastructure.",
+    "social_links": { "github": "#", "linkedin": "#" }
+  },
+  {
+    "id": 8,
+    "name": "Zara Malik",
+    "role": "Content Strategist",
+    "skills": ["Content Writing", "SEO", "Brand Messaging", "Copy Strategy"],
+    "image_url": "https://i.pravatar.cc/600?img=41",
+    "bio": "Crafts clear messaging and product content that converts.",
+    "social_links": { "linkedin": "#" }
+  }
+]

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Team Filtering & Search</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Team Directory</h1>
+      <p>Search team members by name, role, or expertise.</p>
+    </header>
+
+    <section class="controls" aria-label="Team filters">
+      <div class="search-group">
+        <label for="searchInput">Search</label>
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="Search by name, role, or skill..."
+          autocomplete="off"
+          aria-describedby="searchHelp"
+        />
+        <small id="searchHelp" class="helper-text">Search by member name, role, or expertise.</small>
+      </div>
+
+      <fieldset class="filters-group">
+        <legend class="filters-title">Filter by role (multi-select)</legend>
+        <div id="roleFilters" class="role-filters"></div>
+      </fieldset>
+
+      <button id="resetBtn" class="reset-btn" type="button">Reset Filters</button>
+    </section>
+
+    <section class="results-area" aria-live="polite">
+      <p id="resultsMeta" class="results-meta" role="status"></p>
+      <div id="teamGrid" class="team-grid" aria-busy="true"></div>
+      <p id="noResults" class="no-results hidden">No team members found</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
